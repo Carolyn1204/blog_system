@@ -4,39 +4,20 @@ A simple CMS for a blog using PHP. This system will  allow users to create, read
 
 # Description
 
-Homepage (index.php):
+• Utilize Composer to manage project dependencies.
 
-o Use $_GET to display a message such as "Profile updated successfully!" when the user updates their profile.
+• Establish a database connection using PDO in PHP.
 
-o Display a list of all users with their usernames and profile pictures. Use $GLOBALS to achieve this.
-
-o Use $_SESSION to display a greeting message if the user has set a username (e.g., "Welcome, John!").
-
-o Display a link to profile.php where users can update their profile.
-
-
-Profile Page (profile.php):
-
-o Users should see a form where they can set their username and upload a profile picture.
-
-o Use $_POST to handle the form submission.
-
-o Use $FILES to handle the uploaded profile picture.
-
-o Store the uploaded file in a "uploads" directory on the server.
-
-o Use $_SESSION to store the user's username so that it's accessible across different pages.
-
-o Set a $_COOKIE to store the user's last visit time.
-
-o Once the profile is updated, redirect back to index.php with a success message in the $_GET parameter.
+• Implement CRUD operations for blog posts.
 
 
 # Demo
 
-![profile1](https://github.com/user-attachments/assets/94dc6c7f-a22a-40a9-a2ef-f9524c7421c0)
+![blog1](https://github.com/user-attachments/assets/78c2ee01-08ab-4c3d-8148-45eaf874ba0d)
 
-![profile2](https://github.com/user-attachments/assets/a205a294-3729-47bb-8c1c-abc14cb90678)
+![blog3](https://github.com/user-attachments/assets/4e8e02de-2828-4fac-a795-f6875b9ff2a1)
+
+![blog2](https://github.com/user-attachments/assets/b24b09ab-7fdc-4916-bed3-97d0447e4c95)
 
 
 # Contributing
