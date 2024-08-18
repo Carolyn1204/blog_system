@@ -14,7 +14,9 @@ o Use $_SESSION to display a greeting message if the user has set a username (e.
 
 o Display a link to profile.php where users can update their profile.
 
+
 Profile Page (profile.php):
+
 o Users should see a form where they can set their username and upload a profile picture.
 
 o Use $_POST to handle the form submission.
